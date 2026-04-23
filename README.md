@@ -1,9 +1,8 @@
 # Automated-Checkout
 Guide Debarcoding using a blackbox optimizer
 
-# To Do
-- [ ] clean up notebook
-- [ ] add minimal example with different types of data
-- [ ] find an alternative autograd algorithm
-- [ ] implement a more correct model for fluorescence or byo
-- [ ] make a package????
+# Required To Use
+- [ ] A pandas dataframe of observations (rows) by readout (columns)
+- [ ] A codebook which maps the readout (columns) to guide identities (rows)
+
+Each observation can be a spot or a whole cell observation.
